@@ -4,4 +4,4 @@ COPY package.json /app
 RUN npm install
 COPY . /app
 CMD node server.js
-EXPOSE 5000
+EXPOSE 3000
