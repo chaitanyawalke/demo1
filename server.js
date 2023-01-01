@@ -9,5 +9,5 @@ app.get("/",function(req,resp)
     resp.sendFile(path.join(__dirname,"./index.html"));
 });
 
-app.listen(5000);
+app.listen(3000);
 console.log("server is listening on port 5000");
